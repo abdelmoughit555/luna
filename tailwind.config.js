@@ -24,6 +24,7 @@ module.exports = {
         "luna-xl": "37.95px"
       },
       spacing: {
+        "18": "4.5rem",
         "33": "8.25rem",
         "100": "25rem",
         "120": "30rem",

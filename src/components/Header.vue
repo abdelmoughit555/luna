@@ -2,12 +2,12 @@
   <div class="py-7 shadow-md">
     <div class="flex justify-between items-center container mx-auto">
       <h1
-        class="text-3xl md:text-5xl uppercase tracking-widest text-gray-900 m-0 p-0"
+        class="text-3xl md:text-5xl uppercase tracking-widest text-luna-gray-300 m-0 p-0"
       >
         luna
       </h1>
       <ul
-        class="lg:text-sm xl:text-lg uppercase text-gray-800 tracking-wider hidden lg:flex"
+        class="lg:text-sm xl:text-lg uppercase text-luna-gray-300 tracking-wider hidden lg:flex"
       >
         <li class="mr-12"><router-link to="/">home</router-link></li>
         <li class="mr-12">
