@@ -18,11 +18,12 @@
 
       <ul class="flex items-center">
         <li class="mr-6">
-          <img
-            src="../assets/images/search.png"
-            class="w-5 h-5 md:w-6 md:h-6"
-            alt=""
-          />
+          <router-link to="/products">
+            <img
+              src="../assets/images/search.png"
+              class="w-5 h-5 md:w-6 md:h-6"
+              alt=""
+          /></router-link>
         </li>
         <li class="relative mr-6">
           <img
