@@ -2,10 +2,10 @@
   <div>
     <div class="flex">
       <div class="w-3/4 md:w-6/12 flex items-start">
-        <div class="mr-6">
+        <div class="mr-3 md:mr-6">
           <img
             src="../assets/images/image1.png"
-            class="w-32 h-16 md:h-20 object-cover"
+            class="w-24 h-16 md:h-24 object-cover"
             alt=""
           />
         </div>
@@ -25,7 +25,7 @@
         <div class="mt-2 block md:hidden">
           <button
             @click="show = !show"
-            class="py-1 px-5 border-2 border-luna-gray-300 text-xs text-luna-gray-300 font-medium capitalize hover:bg-luna-gray-300 hover:text-gray-100 transition-colors duration-200"
+            class="py-1 px-5 border border-luna-gray-300 text-xs text-luna-gray-300 font-medium capitalize hover:bg-luna-gray-300 hover:text-gray-100 transition-colors duration-200"
           >
             edit
           </button>

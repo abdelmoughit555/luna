@@ -9,7 +9,7 @@
       class="lg:container lg:mx-auto grid grid-cols-2 ms:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 md:gap-6 lx:gap-x-8 xl:gap-8 px-5 md:px-8 lm:px-16 lx:px-16 xl:px-48 mt-6 md:mt-8 lg:mt-12"
     >
       <router-link
-        to="/products"
+        to="/product"
         class="relative flex flex-col bg-gray-50"
         v-for="(n, index) in 8"
         :key="index"

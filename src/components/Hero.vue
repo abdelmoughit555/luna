@@ -2,7 +2,7 @@
   <div class="relative">
     <img
       src="../assets/images/hero.png"
-      class="w-full h-80 md:h-120 lg:h-176 object-cover"
+      class="w-full h-80 md:h-120 lg:h-176 object-cover z-0"
       alt=""
     />
     <div
