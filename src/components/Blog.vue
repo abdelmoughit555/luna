@@ -7,7 +7,7 @@
         Journal
       </h2>
       <div
-        class="grid grid-cols-1 ms:grid-cols-3 md:grid-cols-3 ms:gap-x-6 md:gap-x-12 gap-y-8 w-full mt-8"
+        class="grid grid-cols-1 ms:grid-cols-3 md:grid-cols-3 ms:gap-x-6 md:gap-x-12 gap-y-12 w-full mt-8"
       >
         <div class="w-full" v-for="(n, index) in 3" :key="index">
           <div class="w-full h-36 md:h-44 xl:h-56 overflow-hidden">

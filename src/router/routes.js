@@ -3,6 +3,8 @@ import Products from "../pages/Products"
 import Product from "../pages/Product"
 import Login from "../pages/Login"
 import Cart from "../pages/Cart"
+import Blogs from "../pages/Blogs"
+
 
 export default [
     {
@@ -27,4 +29,8 @@ export default [
         path: '/cart',
         component: Cart,
         name: "cart"
-    }];
+    }, {
+        path: '/blogs',
+        component: Blogs,
+        name: "blog"
+    },];

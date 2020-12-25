@@ -35,7 +35,9 @@
             <router-link to="/products">shop</router-link>
           </li>
           <li class="li-hover mr-12">about</li>
-          <li class="li-hover mr-12">blog</li>
+          <li class="li-hover mr-12">
+            <router-link to="/blogs">blog</router-link>
+          </li>
 
           <li class="li-hover">contact</li>
         </ul>
