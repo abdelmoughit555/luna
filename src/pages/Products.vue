@@ -16,16 +16,20 @@
           </div>
           <div class="flex flex-col md:flex-row md:items-center">
             <div
+              for="here"
               class="text-sm md:text-xs w-full md:w-40 py-3 border-2 flex justify-center items-center mr-4 mt-2 md:mt-0"
             >
-              <p class="font-semibold text-gray-500 capitalize mr-2">
+              <label
+                class="font-semibold text-gray-500 capitalize mr-2"
+                for="here"
+              >
                 sort by:
-              </p>
+              </label>
               <div class="relative leading-none">
                 <select
                   name=""
                   class="font-semibold text-gray-700 capitalize outline-none appearance-none"
-                  id=""
+                  id="here"
                 >
                   <option value="" class="leading-none">price</option>
                 </select>

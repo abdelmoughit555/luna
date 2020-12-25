@@ -16,6 +16,9 @@ module.exports = {
         "luna-orange-100": "#E89F71",
         "luna-gold": "#E9A426"
       },
+      fontFamily: {
+        'luna': ['Lato']
+      },
       fontSize: {
         "luna-xs": ".6rem",
         "luna-sm": "11.38px",
@@ -50,6 +53,7 @@ module.exports = {
       transitionProperty: ['hover', 'focus'],
       cursor: ['hover', 'focus'],
       scale: ['active', 'group-hover'],
+      padding: ['hover', 'focus'],
     },
   },
   plugins: [],

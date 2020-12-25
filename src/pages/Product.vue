@@ -11,11 +11,11 @@
             alt=""
           />
         </div>
-        <div class="flex grid-cols-4 gap-x-4 mt-3 lg:mt-6">
+        <div class="flex grid-cols-4 gap-x-2 mt-3 lg:mt-4">
           <div v-for="(n, index) in 4" :key="index">
             <div>
               <img
-                src="../assets/images/image7.png"
+                :src="require(`../assets/images/image${index + 1}.png`)"
                 class="h-16 lg:h-24 w-full object-cover"
                 alt=""
               />
@@ -54,7 +54,7 @@
             >
             <div class="p-0 m-0">
               <select
-                class="text-xl xl:text-luna-lg text-luna-gray-300 capitalize outline-none appearance-none font-semibold"
+                class="text-xl xl:text-luna-lg text-luna-gray-300 capitalize outline-none appearance-none font-semibold leading-none"
                 name=""
                 id=""
               >

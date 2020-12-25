@@ -1,9 +1,8 @@
 <template>
-  <div>
+  <div class="font-luna">
     <Specials />
     <Header />
     <router-view></router-view>
-
     <Footer />
   </div>
 </template>

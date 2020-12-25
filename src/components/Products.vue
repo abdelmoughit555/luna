@@ -15,7 +15,7 @@
         :key="index"
       >
         <img
-          src="../assets/images/image7.png"
+          :src="require(`../assets/images/image${index + 1}.png`)"
           class="w-full h-36 ms:h-44 md:h-52 lm:h-52 lg:h-64 object-cover overflow-hidden"
           alt=""
         />

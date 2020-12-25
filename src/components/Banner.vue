@@ -6,7 +6,7 @@
       class="bg-image relative container mx-auto px-5 md:px-8 lm:px-16 lx:px-16 xl:px-48 h-64 md:h-80 lg:h-100"
     >
       <div
-        class="relative flex flex-col md:items-center justify-center lg:items-start h-full z-50"
+        class="relative flex flex-col md:items-center justify-center lg:items-start h-full z-40"
       >
         <h2 class="font-bold text-2xl md:text-4xl lg:text-5xl to-gray-900">
           Discover Asteatic tote bags
@@ -26,7 +26,7 @@
     </div>
     <img
       src="../assets/images/banner.png"
-      class="absolute -bottom-16 lg:bottom-0 right-0 lg:right-48 h-64 md:h-80 lg:h-120 transform rotate-12 lg:rotate-0 z-0 lg:z-50"
+      class="absolute -bottom-16 lg:bottom-0 right-0 lm:right-6 lg:right-16 lx:right-24 xl:right-48 h-64 md:h-80 lg:h-120 transform rotate-12 lg:rotate-0 z-0 lg:z-40"
       alt=""
     />
   </div>
