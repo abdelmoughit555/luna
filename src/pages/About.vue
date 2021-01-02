@@ -1,26 +1,24 @@
 <template>
   <div class="container mx-auto mt-24 lg:px-40 lx:px-52 xl:px-80">
-    <h1 class="text-4xl text-center">About</h1>
-    <h2 class="text-center text-3xl font-light mt-3 uppercase">luna</h2>
+    <h1 class="text-3xl md:text-4xl text-center">About</h1>
+    <h2 class="text-center text-2xl md:text-3xl font-light mt-3 uppercase">
+      luna
+    </h2>
     <p
-      class="mt-16 uppercase text-luna-gray-300 font-semibold text-xl text-center"
+      class="mt-8 md:mt-12 lg:mt-16 uppercase text-luna-gray-300 font-semibold text-base md:text-xl text-center"
     >
       fashion reimagined for modern life
     </p>
     <div class="mt-6">
-      <img
-        src="../assets/images/about.png"
-        class="w-full h-72 object-cover"
-        alt=""
-      />
+      <img src="../assets/images/about.png" class="w-full" alt="" />
     </div>
-    <div class="px-28 mt-6">
-      <p class="text-lg font-semibold text-luna-gray-300">
+    <div class="md:px-16 lg:px-28 mt-6">
+      <p class="text-base md:text-lg font-semibold text-luna-gray-300">
         Luna is a Casablanca Morocco based fashion cloths and accessory company
         founded in 2020 by the two brothers Fouhams Abdelmoughit and Adnane to
         reimagine fashion for modern life.
       </p>
-      <div class="mt-12">
+      <div class="mt-6 md:mt-12">
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit non
           molestiae reprehenderit nulla soluta iusto labore tenetur distinctio,
@@ -60,7 +58,7 @@
         </p>
         <br />
         <br />
-        <div class="grid grid-cols-2 gap-x-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-12">
           <div>
             <img
               src="../assets/images/about1.png"
