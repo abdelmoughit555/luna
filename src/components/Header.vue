@@ -23,7 +23,7 @@
         </div>
         <hr />
       </div>
-      <div class="py-7 flex justify-between items-center container mx-auto">
+      <div class="py-5 flex justify-between items-center container mx-auto">
         <h1 class="text-xl md:text-3xl uppercase tracking-widest m-0 p-0">
           <router-link to="/"> luna </router-link>
         </h1>
@@ -35,7 +35,7 @@
             <router-link to="/products">shop</router-link>
           </li>
           <li class="li-hover mr-12">
-            <router-link to="/products">about</router-link>
+            <router-link to="/about">about</router-link>
           </li>
           <li class="li-hover mr-12">
             <router-link to="/blogs">blog</router-link>
@@ -112,7 +112,12 @@
             <li class="mr-12 mt-2">
               <router-link to="/products">products</router-link>
             </li>
-            <li class="mt-2">contact</li>
+            <li class="mt-2">
+              <router-link to="/products">contact</router-link>
+            </li>
+            <li class="mt-2">
+              <router-link to="/products">about</router-link>
+            </li>
           </ul>
         </div>
       </div>

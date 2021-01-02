@@ -6,6 +6,7 @@ import Cart from "../pages/Cart"
 import Blogs from "../pages/Blogs"
 import Blog from "../pages/Blog"
 import Contact from "../pages/Contact"
+import About from "../pages/About"
 
 export default [
     {
@@ -42,4 +43,8 @@ export default [
         path: "/contact",
         component: Contact,
         name: "contact"
+    }, {
+        path: "/about",
+        component: About,
+        name: "about"
     }];
