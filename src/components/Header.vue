@@ -116,7 +116,7 @@
               <router-link to="/products">contact</router-link>
             </li>
             <li class="mt-2">
-              <router-link to="/products">about</router-link>
+              <router-link to="/about">about</router-link>
             </li>
           </ul>
         </div>
