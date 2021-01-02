@@ -4,7 +4,8 @@ import Product from "../pages/Product"
 import Login from "../pages/Login"
 import Cart from "../pages/Cart"
 import Blogs from "../pages/Blogs"
-
+import Blog from "../pages/Blog"
+import Contact from "../pages/Contact"
 
 export default [
     {
@@ -32,5 +33,13 @@ export default [
     }, {
         path: '/blogs',
         component: Blogs,
+        name: "blogs"
+    }, {
+        path: "/blog",
+        component: Blog,
         name: "blog"
-    },];
+    }, {
+        path: "/contact",
+        component: Contact,
+        name: "contact"
+    }];

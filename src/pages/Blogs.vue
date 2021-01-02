@@ -24,7 +24,12 @@
         <div
           class="grid grid-cols-1 ms:grid-cols-2 md:grid-cols-2 gap-x-12 gap-y-16"
         >
-          <div class="w-full" v-for="(n, index) in 8" :key="index">
+          <router-link
+            to="/blog"
+            class="w-full"
+            v-for="(n, index) in 8"
+            :key="index"
+          >
             <div class="w-full h-36 md:h-44 xl:h-56 overflow-hidden">
               <img
                 :src="require(`../assets/images/blog${index + 1}.png`)"
@@ -62,7 +67,7 @@
                 </p>
               </div>
             </div>
-          </div>
+          </router-link>
         </div>
       </div>
     </div>

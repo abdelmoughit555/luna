@@ -23,7 +23,7 @@ module.exports = {
         "luna-gold": "#E9A426"
       },
       fontFamily: {
-        'luna': ['Lato']
+        'luna': ['Futura']
       },
       fontSize: {
         "luna-xs": ".6rem",

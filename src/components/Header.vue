@@ -34,12 +34,16 @@
           <li class="li-hover mr-12">
             <router-link to="/products">shop</router-link>
           </li>
-          <li class="li-hover mr-12">about</li>
+          <li class="li-hover mr-12">
+            <router-link to="/products">about</router-link>
+          </li>
           <li class="li-hover mr-12">
             <router-link to="/blogs">blog</router-link>
           </li>
 
-          <li class="li-hover">contact</li>
+          <li class="li-hover">
+            <router-link to="/contact">contact</router-link>
+          </li>
         </ul>
 
         <ul class="flex items-center">

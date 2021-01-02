@@ -1,5 +1,5 @@
 <template>
-  <div class="font-luna">
+  <div class="font-luna bg-gray-50">
     <Specials />
     <Header />
     <router-view></router-view>
